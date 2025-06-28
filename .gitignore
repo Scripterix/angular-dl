@@ -40,3 +40,12 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Environment files
+src/environments/environment.prod.ts
+src/environments/environment.ts
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

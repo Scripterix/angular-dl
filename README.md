@@ -1,27 +1,71 @@
-# Dl
+# Dev Logger v 1
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
 
-## Development server
+## Dev Logger
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+🚀 **Opis projektu**
 
-## Code scaffolding
+Dev Logger to **prosty CRUD app w Angularze**, umożliwiający:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Dodawanie logów (Create)
+- Wyświetlanie logów (Read)
+- Edytowanie logów (Update)
+- Usuwanie logów (Delete)
 
-## Build
+🔧 **Technologie**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Angular
+- TypeScript
+- RXJS (BehaviorSubject)
+- LocalStorage
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+🔗 **Demo**
 
-## Running end-to-end tests
+[Dev Logger Demo na GitHub Pages](https://scripterix.github.io/)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+📝 **Inspiracja**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Projekt zrealizowany na podstawie kursu **Traversy Media**.
+
+---
+
+👤 **Portfolio**
+
+OpenGateWeb | Scripterix  
+➡️ [https://opengateweb.com/portfolio](https://opengateweb.com/portfolio)
+
+---
+
+💡 **Funkcje do rozwoju**
+
+- 🔄 Synchronizacja z backend (Express + MongoDB)  
+- 🔥 Firebase Realtime Database  
+- 📅 Paginacja i filtrowanie logów  
+- 📝 Autoryzacja użytkownika
+
+---
+
+📂 **Struktura projektu**
+
+src/
+┣ app/
+┃ ┣ components/
+┃ ┃ ┣ logs/
+┃ ┃ ┣ log-form/
+┃ ┣ services/
+┃ ┣ models/
+┣ assets/
+┣ environments/
+
+
+✅ **Uruchomienie lokalne**
+
+```bash
+npm install
+ng serve
+```
